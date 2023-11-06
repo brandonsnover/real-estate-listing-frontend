@@ -1,0 +1,80 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  font-size: larger;
+}
+
+body {
+  text-align: center;
+  background-image: url("https://t3.ftcdn.net/jpg/04/06/60/72/360_F_406607245_daS9yMQ9g8MMZz3XWf2LVXxFy5cAdLQ7.jpg");
+}
+
+.cards img {
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.newdata {
+  padding: 2px;
+  font-size: large;
+  font-weight: 700;
+}
+
+input {
+  padding:3px;
+  border-radius:3px;
+}
+
+button {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+select {
+  width: 100px;
+  padding:4px;
+  border-radius:10px;
+}
+
+p {
+  font-family: "Copperplate", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+}
+
+#homes-new {
+  text-align: left;
+}
+
+label {
+  display:block;
+}
+
+input:required + span:after {
+  content: "Required";
+}
+
+.details{
+  margin: 5px;
+}
